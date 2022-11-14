@@ -23,7 +23,7 @@ export const database = {
     port: 3306,
     username: 'root',
     password: '',
-    database: 'pieb_with_dpe',
+    database: 'labor_analgesia',
     charset: 'utf8mb4'
 };
 
