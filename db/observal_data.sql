@@ -1,3 +1,19 @@
+/*
+ Navicat Premium Data Transfer
+
+ Source Server         : localhost_3306
+ Source Server Type    : MySQL
+ Source Server Version : 80031 (8.0.31)
+ Source Host           : localhost:3306
+ Source Schema         : labor_analgesia
+
+ Target Server Type    : MySQL
+ Target Server Version : 80031 (8.0.31)
+ File Encoding         : 65001
+
+ Date: 14/11/2022 14:16:36
+*/
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
@@ -25,6 +41,7 @@ CREATE TABLE `observal_data` (
   `has_caesarean_section` tinyint(1) DEFAULT '0' COMMENT '是否有剖宫产',
   `has_instrumental` tinyint(1) DEFAULT '0' COMMENT '是否有器械助产',
   `has_lateral_episiotomy` tinyint(1) DEFAULT '0' COMMENT '是否有侧切',
+  `has_pruritus` tinyint(1) DEFAULT NULL COMMENT '是否瘙痒',
   `birth_time` varchar(8) COLLATE utf8mb4_bin DEFAULT NULL COMMENT '分娩时间',
   `foetal_weight` int DEFAULT NULL COMMENT '胎儿体重',
   `one_minute_apgar_score` int DEFAULT NULL COMMENT '1分钟APGAR评分',
