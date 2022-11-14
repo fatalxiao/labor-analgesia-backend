@@ -115,12 +115,12 @@ const Observal = sequelizeInstance.define('observal_data', {
         field: 'has_instrumental',
         type: Sequelize.BOOLEAN
     },
-    hasLateralEpisiotomy: {
-        field: 'has_lateral_episiotomy',
-        type: Sequelize.BOOLEAN
-    },
     hasPruritus: {
         field: 'has_pruritus',
+        type: Sequelize.BOOLEAN
+    },
+    hasLateralEpisiotomy: {
+        field: 'has_lateral_episiotomy',
         type: Sequelize.BOOLEAN
     },
     birthTime: {

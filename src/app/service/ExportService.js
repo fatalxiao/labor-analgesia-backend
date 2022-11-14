@@ -68,8 +68,8 @@ export async function getPiebOptimalIntervalDataData(data, sensoryBlocks) {
         {name: '镇痛开始到首次手推负荷之间的时长（分钟）', key: 'durationOfFirstManualBolusTime'},
         {name: '是否转剖宫产', key: 'hasCaesareanSection'},
         {name: '是否侧切', key: 'hasLateralEpisiotomy'},
-        {name: '是否瘙痒', key: 'hasPruritus'},
         {name: '是否器械助产', key: 'hasInstrumental'},
+        {name: '是否瘙痒', key: 'hasPruritus'},
         {name: '是否低血压', key: 'hasHypotension'},
         {name: '备注', key: 'desc'}
     ];
@@ -216,7 +216,7 @@ export async function getPiebOptimalIntervalDataData(data, sensoryBlocks) {
             const {
                 epPlacementPoint, initialTime, observalEndPoint, cervixFullyDilatedTime,
                 cervixDilatation, pcaCount, firstPcaTime, firstManualBolusTime, hasCaesareanSection,
-                hasLateralEpisiotomy, hasPruritus, hasInstrumental, hasHypotension, description
+                hasLateralEpisiotomy, hasInstrumental, hasPruritus, hasHypotension, description
             } = observal;
 
             // 穿刺位置
@@ -259,11 +259,11 @@ export async function getPiebOptimalIntervalDataData(data, sensoryBlocks) {
             // 是否侧切
             result.hasLateralEpisiotomy = formatBoolean(hasLateralEpisiotomy);
 
-            // 是否瘙痒
-            result.hasPruritus = formatBoolean(hasPruritus);
-
             // 是否器械助产
             result.hasInstrumental = formatBoolean(hasInstrumental);
+
+            // 是否瘙痒
+            result.hasPruritus = formatBoolean(hasPruritus);
 
             // 是否低血压
             result.hasHypotension = formatBoolean(hasHypotension);
