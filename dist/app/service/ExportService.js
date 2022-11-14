@@ -177,6 +177,9 @@ function _getPiebOptimalIntervalDataData() {
               name: '是否器械助产',
               key: 'hasInstrumental'
             }, {
+              name: '是否瘙痒',
+              key: 'hasPruritus'
+            }, {
               name: '是否低血压',
               key: 'hasHypotension'
             }, {
@@ -307,6 +310,7 @@ function _getPiebOptimalIntervalDataData() {
                   hasCaesareanSection = observal.hasCaesareanSection,
                   hasLateralEpisiotomy = observal.hasLateralEpisiotomy,
                   hasInstrumental = observal.hasInstrumental,
+                  hasPruritus = observal.hasPruritus,
                   hasHypotension = observal.hasHypotension,
                   _description = observal.description;
 
@@ -348,6 +352,9 @@ function _getPiebOptimalIntervalDataData() {
 
                 // 是否器械助产
                 result.hasInstrumental = (0, _ExportFormat.formatBoolean)(hasInstrumental);
+
+                // 是否瘙痒
+                result.hasPruritus = (0, _ExportFormat.formatBoolean)(hasPruritus);
 
                 // 是否低血压
                 result.hasHypotension = (0, _ExportFormat.formatBoolean)(hasHypotension);

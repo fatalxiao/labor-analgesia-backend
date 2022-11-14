@@ -120,6 +120,10 @@ var Observal = sequelizeInstance.define('observal_data', {
     field: 'has_instrumental',
     type: _sequelize["default"].BOOLEAN
   },
+  hasPruritus: {
+    field: 'has_pruritus',
+    type: _sequelize["default"].BOOLEAN
+  },
   hasLateralEpisiotomy: {
     field: 'has_lateral_episiotomy',
     type: _sequelize["default"].BOOLEAN
