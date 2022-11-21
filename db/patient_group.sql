@@ -10,17 +10,19 @@ CREATE TABLE `patient_group` (
   `name` varchar(20) DEFAULT NULL COMMENT '组名',
   PRIMARY KEY (`id`),
   UNIQUE KEY `patient_group_id_uindex` (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb3 COMMENT='分组';
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb3 COMMENT='分组';
 
 -- ----------------------------
 -- Records of patient_group
 -- ----------------------------
 BEGIN;
-INSERT INTO `patient_group` (`id`, `name`) VALUES (1, '30Min');
-INSERT INTO `patient_group` (`id`, `name`) VALUES (2, '40Min');
-INSERT INTO `patient_group` (`id`, `name`) VALUES (3, '50Min');
-INSERT INTO `patient_group` (`id`, `name`) VALUES (4, '60Min');
-INSERT INTO `patient_group` (`id`, `name`) VALUES (5, 'Other');
+INSERT INTO `patient_group` (`id`, `name`) VALUES (1, '7ml');
+INSERT INTO `patient_group` (`id`, `name`) VALUES (2, '8ml');
+INSERT INTO `patient_group` (`id`, `name`) VALUES (3, '9ml');
+INSERT INTO `patient_group` (`id`, `name`) VALUES (4, '10ml');
+INSERT INTO `patient_group` (`id`, `name`) VALUES (5, '11ml');
+INSERT INTO `patient_group` (`id`, `name`) VALUES (6, '12ml');
+INSERT INTO `patient_group` (`id`, `name`) VALUES (7, 'Other');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;
