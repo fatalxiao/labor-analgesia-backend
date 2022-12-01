@@ -4,8 +4,7 @@ const gulp = require('gulp'),
 gulp.task('es', () =>
     gulp.src(['./src/**'])
         .pipe(babel({
-            presets: [['@babel/env', {modules: 'commonjs'}]],
-            plugins: ['@babel/plugin-transform-runtime']
+            presets: [['@babel/env', {modules: 'commonjs'}]]
         }))
         .pipe(gulp.dest('./dist'))
 );
