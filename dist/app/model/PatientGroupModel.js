@@ -1,12 +1,12 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports["default"] = void 0;
 var _sequelize = _interopRequireDefault(require("sequelize"));
 var _SequelizeGenerator = _interopRequireDefault(require("../utils/SequelizeGenerator.js"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 /**
  * @file PatientGroupModel.js
  */

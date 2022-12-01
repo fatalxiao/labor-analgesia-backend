@@ -1,6 +1,5 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -11,6 +10,7 @@ exports.formatResDateTime = formatResDateTime;
 exports.formatResTime = formatResTime;
 exports.formatTimeField = formatTimeField;
 var _moment = _interopRequireDefault(require("moment"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 /**
  * @file ObservalModel.js
  */

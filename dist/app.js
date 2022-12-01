@@ -1,6 +1,5 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 var _koa = _interopRequireDefault(require("koa"));
 var _cors = _interopRequireDefault(require("@koa/cors"));
 var _koaStatic = _interopRequireDefault(require("koa-static"));
@@ -8,6 +7,7 @@ var _koaBodyparser = _interopRequireDefault(require("koa-bodyparser"));
 var _config = _interopRequireDefault(require("./config.js"));
 var _mappingRouterToController = _interopRequireDefault(require("./app/utils/mappingRouterToController.js"));
 var _fancyNodeLogger = _interopRequireDefault(require("fancy-node-logger"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 /**
  * @file app.js
  */

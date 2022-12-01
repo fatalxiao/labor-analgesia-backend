@@ -1,6 +1,5 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -8,6 +7,7 @@ exports["default"] = void 0;
 exports.generateSequelize = generateSequelize;
 var _sequelize = require("sequelize");
 var _config = _interopRequireDefault(require("../../config.js"));
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 /**
  * @file SequelizeGenerator.js
  */

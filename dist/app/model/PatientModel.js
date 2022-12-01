@@ -1,6 +1,5 @@
 "use strict";
 
-var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -11,6 +10,7 @@ var _AnalgesiaModel = _interopRequireDefault(require("./AnalgesiaModel"));
 var _ObservalModel = _interopRequireDefault(require("./ObservalModel"));
 var _SequelizeGenerator = _interopRequireDefault(require("../utils/SequelizeGenerator.js"));
 var _DataFormat = require("../utils/DataFormat");
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 /**
  * @file PatientModel.js
  */
