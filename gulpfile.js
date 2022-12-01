@@ -1,5 +1,5 @@
-const gulp = require('gulp'),
-    babel = require('gulp-babel');
+const gulp = require('gulp');
+const babel = require('gulp-babel');
 
 gulp.task('es', () =>
     gulp.src(['./src/**'])
