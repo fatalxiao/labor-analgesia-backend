@@ -35,25 +35,25 @@
         "koa-static": "^5.0.0",
         "lodash": "^4.17.21",
         "moment": "^2.29.4",
-        "mysql2": "^2.3.3",
+        "mysql2": "^3.2.0",
         "node-xlsx": "^0.21.0",
-        "sequelize": "^6.26.0"
+        "sequelize": "^6.29.0"
     },
     "devDependencies": {
-        "@babel/cli": "^7.19.3",
-        "@babel/core": "^7.20.5",
-        "@babel/node": "^7.20.5",
-        "@babel/plugin-proposal-decorators": "^7.20.5",
+        "@babel/cli": "^7.21.0",
+        "@babel/core": "^7.21.0",
+        "@babel/node": "^7.20.7",
+        "@babel/plugin-proposal-decorators": "^7.21.0",
         "@babel/polyfill": "^7.0.0",
         "@babel/preset-env": "^7.20.2",
-        "@babel/runtime": "^7.20.6",
-        "babel-plugin-module-resolver": "^4.1.0",
+        "@babel/runtime": "^7.21.0",
+        "babel-plugin-module-resolver": "^5.0.0",
         "cross-env": "^7.0.3",
         "fancy-node-logger": "^0.2.0",
         "gulp": "^4.0.2",
         "gulp-babel": "^8.0.0",
-        "mocha": "^10.1.0",
-        "nodemon": "^2.0.20",
-        "rimraf": "^3.0.2"
+        "mocha": "^10.2.0",
+        "nodemon": "^2.0.21",
+        "rimraf": "^4.3.0"
     }
 }
