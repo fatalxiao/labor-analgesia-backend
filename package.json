@@ -37,7 +37,7 @@
         "moment": "^2.29.4",
         "mysql2": "^3.2.0",
         "node-xlsx": "^0.21.0",
-        "sequelize": "^6.29.0"
+        "sequelize": "^6.29.1"
     },
     "devDependencies": {
         "@babel/cli": "^7.21.0",
@@ -54,6 +54,6 @@
         "gulp-babel": "^8.0.0",
         "mocha": "^10.2.0",
         "nodemon": "^2.0.21",
-        "rimraf": "^4.3.0"
+        "rimraf": "^4.4.0"
     }
 }
